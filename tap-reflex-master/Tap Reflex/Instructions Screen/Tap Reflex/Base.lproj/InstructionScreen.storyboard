@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lMm-tb-2IO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Instructions-->
+        <scene sceneID="aTv-bf-f7C">
+            <objects>
+                <viewController id="lMm-tb-2IO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eeM-Fe-VPk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bbG-Nu-Wmo">
+                                <rect key="frame" x="16" y="176" width="343" height="314"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Instructions:                                                                   1. Select Difficulty                 2. Tap each button before its timer runs out                    3. Tap too late and lose one life                                              4. Lose 3 lives and it is game over</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1954711294" green="0.1954711294" blue="0.1954711294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bbG-Nu-Wmo" firstAttribute="top" secondItem="UQ6-ff-0Ke" secondAttribute="top" constant="156" id="Z50-g8-4B8"/>
+                            <constraint firstItem="UQ6-ff-0Ke" firstAttribute="trailing" secondItem="bbG-Nu-Wmo" secondAttribute="trailing" constant="16" id="kQA-2H-45c"/>
+                            <constraint firstItem="UQ6-ff-0Ke" firstAttribute="bottom" secondItem="bbG-Nu-Wmo" secondAttribute="bottom" constant="177" id="mEi-Ni-XRU"/>
+                            <constraint firstItem="bbG-Nu-Wmo" firstAttribute="leading" secondItem="UQ6-ff-0Ke" secondAttribute="leading" constant="16" id="us1-YT-dfw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UQ6-ff-0Ke"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Instructions" id="Nzx-Tq-Ork"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfL-zz-Bwn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1084" y="977.36131934032994"/>
+        </scene>
+    </scenes>
+</document>
